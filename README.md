@@ -67,16 +67,8 @@ The app will now be accessible at [http://localhost:3000/](http://localhost:3000
 The UI is pretty bad, however this is only for demo purposes and will be upgraded using bootstrap 3.0 in the near futur. 
 
 
-## Miscellany
+## Misc
 
 - MIT license.
-- Questions/comments/etc. are welcome.
-- As an exercise, I built this without using [CoffeeScript][coffeescript] or
-  [Streamline][streamline]. What a gigantic pain! Never again. =P
 
 
-[Neo4j]: http://www.neo4j.org/
-[node-neo4j]: https://github.com/thingdom/node-neo4j
-
-[coffeescript]: http://www.coffeescript.org/
-[streamline]: https://github.com/Sage/streamlinejs
