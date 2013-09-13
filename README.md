@@ -29,8 +29,9 @@ Ability to create non user objects, have an owner, and allow users to follow obj
 ```bash
 # Install the required dependencies
 npm install
-
+```
 # Install a local Neo4j instance
+```bash
 curl http://dist.neo4j.org/neo4j-community-1.8.2-unix.tar.gz --O neo4j-community-1.8.2-unix.tar.gz
 tar -zxvf neo4j-community-1.8.2-unix.tar.gz
 rm neo4j-community-1.8.2-unix.tar.gz
