@@ -25,9 +25,8 @@ Ability to create non user objects, have an owner, and allow users to follow obj
 
 ## Installation
 
--install neo4j
-```bash
 # Install the required dependencies
+```bash
 npm install
 ```
 # Install a local Neo4j instance
@@ -38,6 +37,7 @@ rm neo4j-community-1.8.2-unix.tar.gz
 ln -s neo4j-community-1.8.2/bin/neo4j neo4j
 ```
 # Install a local Redis instance
+```bash
 wget http://redis.googlecode.com/files/redis-2.4.16.tar.gz
 tar xzf redis-2.4.16.tar.gz
 cd redis-2.4.16
