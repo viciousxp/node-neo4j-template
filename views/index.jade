@@ -3,14 +3,9 @@ extends layout
 block content
     h1= title
 
-    p
-        | This is a template app showing the use of&nbsp;
-        a(href='http://www.neo4j.org/', target='_blank') Neo4j
-        |  from Node.js. It uses the&nbsp;
-        a(href='https://github.com/thingdom/node-neo4j', target='_blank') node-neo4j
-        |  library, available on npm as&nbsp;
-        code neo4j
-        .
+    a(href='/login') Login
+    br
+    a(href='/register') Register a new account
 
     p.
         This app is a simple social network manager: it lets you add and remove
@@ -19,4 +14,4 @@ block content
     p
         strong
             | Get started:&nbsp;
-            a(href='/users') View all users
+            a(href='/users') View your account
